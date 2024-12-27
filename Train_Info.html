@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Name of Website : Sanitization system  -->
+  <title>Train Information</title>
+  <!-- Logo of our Website ( System) FAVICON -->
+  <link rel="icon" href="./assets/Logo.png">
+  <!-- Adding CSS Code file Externally -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Adding Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Adding JS Script of BootStrap for Working -->
+  <!-- Add between Head end and Body Start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVBAR using Bootstrap-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <img src="./assets/Logo.png" width="70px" alt="logo">
+      <!-- Name of WebSite (Link) -->
+      <a class="navbar-brand" href="./index.html">Keep<span class="logo-text2">Clean</span></a>
+      <!-- NAVBAR Config -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <!-- HOME -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+         
+          <!-- GALLERY -->
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <!-- Train Information -->
+          <li class="nav-item">
+            <a class="nav-link active" href="./train_Info.html">Train_Info</a>
+          </li>
+          <li id="train-info">
+            <!-- Train data will be inserted here -->
+          </li>
+          <!-- MISSIONS-->
+          <li class="nav-item">
+            <a class="nav-link" href="./missions.html">Missions</a>
+          </li>
+          <!-- CONTACT-->
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success search" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Motto (Bar below NavBar)-->
+  <div class="navbar2">
+    <div class="motto">
+      <h2 class="motto1"><i>"Unveiling the Magic of Waste: <span class="motto2"><i>Where Wizards Work Wonders for a
+              Cleaner Planet."</i></span></h2>
+    </div>
+  </div>
+
+</body>
+
+<!-- Including jQuery (JS Library)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Including Javascript Code file Externally -->
+<script src="./script.js"></script>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Tab with Vertical Boxes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for the horizontal tab */
+        .horizontal-tab {
+            display: flex;
+            justify-content: space-between;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-bottom: 2px solid #ccc;
+        }
+
+        /* Style for each vertical box */
+        .vertical-box {
+            display: inline-block;
+            background-color: #ffffff;
+            width: 300px;
+            padding: 20px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            white-space: normal; /* Ensures the content wraps */
+        }
+
+        /* Title of the vertical box */
+        .vertical-box h2 {
+            font-size: 18px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        /* Content of the vertical box */
+        .vertical-box p {
+            font-size: 14px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="horizontal-tab">
+    <!-- Vertical Box 1 -->
+    <div class="vertical-box">
+        <h2>Box 1 Title</h2>
+        <p>This is the content for the first vertical box. You can put any data or information here, including images, text, etc.</p>
+    </div>
+
+    <!-- Vertical Box 2 -->
+    <div class="vertical-box">
+        <h2>Box 2 Title</h2>
+        <p>This is the content for the second vertical box. Feel free to add your own content.</p>
+    </div>
+
+    <!-- Vertical Box 3 -->
+    <div class="vertical-box">
+        <h2>Box 3 Title</h2>
+        <p>This is the content for the third vertical box. Modify this as needed.</p>
+    </div>
+</div>
+
+</body>
+</html>

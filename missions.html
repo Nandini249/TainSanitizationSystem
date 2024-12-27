@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Name of Website : Waste Wizard -->
+  <title>Keep Clean (Missions)</title>
+  <!-- Logo of our Website (Waste Management System) FAVICON -->
+  <link rel="icon" href="./assets/Logo.png">
+  <!-- Adding CSS Code file Externally -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Adding Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Adding JS Script of BootStrap for Working -->
+  <!-- Add between Head end and Body Start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVBAR using Bootstrap-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <img src="./assets/Logo.png" width="70px" alt="logo">
+      <!-- Name of WebSite (Link) -->
+      <a class="navbar-brand" href="./index.html">Keep<span class="logo-text2">Clean</span></a>
+      <!-- NAVBAR Config -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <!-- HOME -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          
+          <!-- GALLERY -->
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <!-- BLOGS -->
+          <li class="nav-item">
+            <a class="nav-link" href="./blogs.html">Blogs</a>
+          </li>
+          <!-- MISSIONS-->
+          <li class="nav-item">
+            <a class="nav-link active" href="./missions.html">Missions</a>
+          </li>
+          <!-- CONTACT-->
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success search" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Motto (Bar below NavBar)-->
+  <div class="navbar2">
+    <div class="motto">
+      <h2 class="motto1"><i>"Unveiling the Magic of Waste: <span class="motto2"><i>Where Wizards Work Wonders for a
+              Cleaner Planet."</i></span></h2>
+    </div>
+  </div>
+
+  <!-- MISSIONS -->
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom" style="font-style: normal;">Our Commitment to <span>Positive </span>Change..!!</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg1 fs-2 mb-3">
+          <svg class="bi" width="1em" height="2em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis"> Enhancing Passenger Safety and Hygiene</h3>
+        <p>To provide a safe and hygienic environment for passengers by automating the sanitization of train compartments.”
+        </p><br>
+
+        <p></p>Focus: Safety, hygiene, and health protection during travel.</p>
+        
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg1 fs-2 mb-3">
+          <svg class="bi" width="1em" height="4em"><use xlink:href="#people-circle"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Eco-Friendly Sanitization Practices</h3>
+        <p>Mission Statement: “To contribute to a sustainable future by using eco-friendly, automated sanitization methods that minimize the use of chemicals and maximize energy efficiency.”
+         </p><br>
+          <p></p>Focus: Sustainability, environmental responsibility, and reducing chemical use.</p>
+       
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg1 fs-2 mb-3">
+          <svg class="bi" width="1em" height="6em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">  Real-Time Monitoring and Control </h3>
+        <p> Mission Statement: “To empower authorities and maintenance teams with real-time data monitoring and remote control of sanitization processes, ensuring timely and effective cleaning.”</p><br>
+        <p></p>  Focus: IoT integration, real-time monitoring, and remote control.</p>
+       
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container px-4 py-5">
+    <h2 class="border-bottom" style="font-style: normal; color: rgb(0, 177, 0); font-weight: 500;">Mission</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis" style="font-style: normal;">"Our Missions: Keeping It Clean!
+          The Automated Sanitization Revolution!"</h2>
+        <p class="text-body-secondary" style="font-style: normal;">Our mission is to revolutionize public transportation hygiene by automating the sanitization of train compartments using cutting-edge technology. We aim to create a safer and healthier travel environment for passengers by implementing an efficient, automated cleaning system that utilizes UV-C light, disinfectant sprayers, and HEPA filtration. By integrating sensors and IoT technology, we can ensure that the system operates only when needed, reducing energy consumption while maintaining a high standard of cleanliness. Our solution minimizes human intervention, providing consistent and thorough sanitization in every compartment.</p>
+       
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <!-- Image1 -->
+          <div class="col d-flex flex-column gap-2">
+            <img src="./assets/i1.jpg" alt="">
+          </div>
+          <!-- Image2 -->
+          <div class="col d-flex flex-column gap-2">
+            <img src="./assets/i2.jpg" alt="">
+          </div>
+          <!-- Image3 -->
+          <div class="col d-flex flex-column gap-2">
+            <img src="./assets/i3.jpg" alt="">
+          </div>
+          <!-- Image4 -->
+          <div class="col d-flex flex-column gap-2">
+            <img src="./assets/i4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="col-one">
+            <h4>"Trust the Technology, <span>Embrace the Clean!"</span></h4>
+            <p>Train name: Vande Bharat Express
+
+             
+              
+              </p>
+            <p> Deparuture Time: 2:30pm to 2:45pm</p>
+            <p>Sanitization Status : In progress</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="col-two">
+            <h4>Important Links</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blogs.html">Blogs</a></li>
+              <li><a href="./missions.html">Missions</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="col-one">
+            <h4>Social Media</h4>
+            <div class="social">
+              <a href="https://www.facebook.com/"><img src="./assets/facebook.png" alt="facebook"></a>
+              <a href="https://www.instagram.com/"><img src="./assets/instagram.png" alt="instagram"></a>
+              <a href="https://www.youtube.com/"><img src="./assets/youtube.png" alt="youtube"></a>
+              <a href="https://twitter.com/?lang=en-in"><img src="./assets/twitter.png" alt="twitter"></a>
+              <a href="https://mail.google.com/mail/u/0/?ogbl"><img src="./assets/google.png" alt="gmail"></a>
+            </div>
+          </div>
+          <p class="foot">Copyright &copy; 2023 | All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+</body>
+
+<!-- Including jQuery (JS Library)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Including Javascript Code file Externally -->
+<script src="./script.js"></script>
+
+</html>
